@@ -5,7 +5,13 @@
 *.so
 *.dylib
 bin/*
+projects/guestbook/bin/*
 Dockerfile.cross
+
+# Go installation files
+go*.linux-*.tar.gz
+go*.darwin-*.tar.gz
+go*.windows-*.zip
 
 # Test binary, built with `go test -c`
 *.test
